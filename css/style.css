@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* body{
+    background-color: #000;
+} */
+
+
+.section_1{
+    background-size: cover;
+    height: 75vh;
+  position: relative;
+  z-index: 2;
+}
+
+
+/* section header */
+
+
+.overly{
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+ background: rgb(7,17,2);
+background: linear-gradient(180deg, rgba(7,17,2,1) 3%, rgba(1,9,5,0) 58%); 
+ z-index: -2;
+
+
+}
+
+.overly1{
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgb(7,17,2);
+    background: linear-gradient(0deg, rgba(7,17,2,1) 3%, rgba(1,9,5,0) 35%); 
+}
+
+.navbar-brand img{
+    width: 150px;
+    height: 80px;    
+
+}
+
+/* middle */
+
+.last{
+    font-size: 4rem;
+}
+
+
+.form1{
+    
+    width: 800px;
+    height: 70px;
+    left: 100px;
+    
+}
+
+.basic-addon2{
+    width: 600px;
+    height: 60px;
+}
+
+
+
+
+.middle{
+    text-align: center;
+}
+
+
+
+
+.input1{
+    width: 600px;
+    border-radius: 10px;
+    
+}
+
+
+
+/* email */
+
+.back_text{
+    background-color: #000;
+}
+
+
+/* black */
+
+.hr{
+    
+    height: 10px;
+    background-color: #424242;
+}
+.first{
+    background: #000;
+}
+
+.text_1{
+    color: gray;
+}
+
+
+
+
+/* footer */
+
+footer a{
+    text-decoration: none;
+    color: grey;
+
+}
+footer a:hover{
+    text-decoration: underline;
+    color :gray;
+}
+
+
+
+/* media Query */
+
+@media(max-width:1800px){
+    .input-group .sp{
+        position: relative;
+        top: 8px;
+        left: 350px;
+    }
+
+    /* .section_1{
+        background-size: cover;
+        height: 60vh;
+      position: relative;
+      z-index: 2;
+    } */
+}
+
+@media(max-width:1200px){
+    .input-group .sp{
+        position: relative;
+        top: 8px;
+        left: 250px;
+    }
+    /* .section_1{
+        background-size: cover;
+        height: 40vh;
+      position: relative;
+      z-index: 2;
+    } */
+}
+
+
+@media(max-width:1024px){
+   
+    /* .section_1{
+        background-size: cover;
+        height: 90vh;
+      position: relative;
+      z-index: 2;
+    }  */
+}
+
+@media(max-width:900px){
+    .input-group .sp{
+        position: relative;
+        top: 8px;
+        left: 150px;
+    }
+    /* .section_1{
+        background-size: cover;
+        height: 40vh;
+      position: relative;
+      z-index: 2;
+    } */
+}
+
+@media(max-width:700px){
+    .form1{
+        
+        width: 350px;
+        height: 50px;
+        
+    }
+    .input-group .sp{
+        position: relative;
+        top: 8px;
+        left: 90px;
+    }
+    /* .section_1{
+        background-size: cover;
+        height: 40vh;
+      position: relative;
+      z-index: 2;
+    }  */
+
+    .last{
+        font-size: 1.4rem;
+    }
+    .last_1{
+        font-size: 19px;
+    }
+}
+
+
+
+@media(max-width:450px){
+    .input_1{
+        width: 30px;
+        height: 10px;
+    }
+    .input1 span{
+        position: relative;
+        margin-left: 100ch;
+    }
+    .input-group{
+
+        top: 10px;;
+    }
+    .input-group .sp{
+        position: relative;
+        top: 8px;
+        left: 50px;
+    }
+    .navbar-brand img{
+        width: 100px;
+        height: 60px;    
+    
+    }
+    /* .section_1{
+        background-size: cover;
+        height: 40vh;
+      position: relative;
+      z-index: 2;
+    } */
+    
+    }
+
+
+    @media(max-width:360px){
+        .input-group .sp{
+            position: relative;
+            top: 3px;
+            left: 50px;
+        }   
+    }
+
+
+
+
+
